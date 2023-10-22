@@ -17,7 +17,11 @@ python3 main.py
 
 Commands:
 > __they need a write in telegram dialog__
+> 
 > .type [message text]
+>
 > .spamsticker [count]
+>
 > .spam [count] [message text]
+>
 > .spam2 [count] [message text]
