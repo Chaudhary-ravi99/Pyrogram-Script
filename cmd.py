@@ -13,8 +13,8 @@ print('Get ready')
 
 # Create app there -> https://my.telegram.org/apps
 # Fill there api_hash and api_key
-api_id = 
-api_hash = ''
+api_id = '15962642'
+api_hash = '84ba0ce70473e249726f43b38e19333e'
 session_name = 'pyscrp'
 app = Client(session_name, api_id, api_hash)
 
@@ -28,7 +28,7 @@ sticker_id = None
 @app.on_message(filters.command("type", prefixes=".") & filters.me)
 def type_string(_, msg):
     global number
-    number = number + 1
+    number = number +919726093956
     try:
         orig_text = msg.text.split(".type ", maxsplit=1)[1]
     except IndexError:
